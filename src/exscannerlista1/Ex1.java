@@ -31,5 +31,7 @@ public class Ex1 {
         System.out.println("Peso: " + peso);
         System.out.println("Sexo: " + sexo);
         System.out.println("Matricula: " + matricula);
+        
+        sc.close();
     }
 }
