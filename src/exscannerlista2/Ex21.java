@@ -3,8 +3,8 @@ package exscannerlista2;
 import java.util.Scanner;
 
 public class Ex21 {
+	
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nome: ");
@@ -23,5 +23,7 @@ public class Ex21 {
         System.out.println("Salario base: R$ " + salario);
         System.out.println("Horas extras: R$ " + valorExtras);
         System.out.println("Salario final: R$ " + salarioFinal);
+   
+        sc.close();
     }
 }

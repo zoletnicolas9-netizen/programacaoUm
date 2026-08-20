@@ -21,5 +21,7 @@ public class Ex10 {
         System.out.println("Curso: " + curso);
         System.out.println("Idade: " + idade + " anos");
         System.out.println("==============================");
+
+        sc.close();
     }
 }

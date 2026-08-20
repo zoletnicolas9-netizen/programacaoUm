@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Ex7 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite a nota: ");
@@ -16,5 +15,7 @@ public class Ex7 {
         System.out.println("Nota: " + nota);
         System.out.println("Nota inteira: " + notaInteira);
         System.out.println("Nota double: " + notaDouble);
+    
+        sc.close();
     }
 }

@@ -3,8 +3,8 @@ package exscannerlista2;
 import java.util.Scanner;
 
 public class Ex22 {
+	
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nome do produto: ");
@@ -28,5 +28,7 @@ public class Ex22 {
         System.out.println("Valor total: R$ " + total);
         System.out.println("Parcelas: " + parcelas);
         System.out.println("Valor de cada parcela: R$ " + parcela);
+    
+        sc.close();
     }
 }
