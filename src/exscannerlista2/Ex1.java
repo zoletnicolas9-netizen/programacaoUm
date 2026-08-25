@@ -3,8 +3,8 @@ package exscannerlista2;
 import java.util.Scanner;
 
 public class Ex1 {
+	
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nome: ");
@@ -32,7 +32,11 @@ public class Ex1 {
         System.out.println("Altura: " + altura);
         System.out.println("Media final: " + media);
         System.out.println("Matriculado: " + matriculado);
+<<<<<<< HEAD
     
+=======
+   
+>>>>>>> 599999ca8aca474e1120773ef4138e401655e991
         sc.close();
     }
 }
