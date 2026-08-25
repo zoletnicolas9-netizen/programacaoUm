@@ -7,58 +7,79 @@ public class Ex10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		 int categoria = sc.nextInt();
-	        int produto = sc.nextInt();
+        int curso = sc.nextInt();
+        int disciplina = sc.nextInt();
 
-	        switch (categoria) {
+        switch (curso) {
 
-	            case 1:
+            case 1:
 
-	                switch (produto) {
-	                    case 1:
-	                        System.out.println("Notebook");
-	                        break;
+                switch (disciplina) {
+                    case 1:
+                        System.out.println("Programação");
+                        break;
 
-	                    case 2:
-	                        System.out.println("Mouse");
-	                        break;
+                    case 2:
+                        System.out.println("Banco de Dados");
+                        break;
 
-	                    case 3:
-	                        System.out.println("Teclado");
-	                        break;
+                    case 3:
+                        System.out.println("Redes");
+                        break;
 
-	                    default:
-	                        System.out.println("Produto inválido.");
-	                }
+                    default:
+                        System.out.println("Disciplina inválida.");
+                }
 
-	                break;
+                break;
 
-	            case 2:
+            case 2:
 
-	                switch (produto) {
-	                    case 1:
-	                        System.out.println("Smartphone");
-	                        break;
+                switch (disciplina) {
+                    case 1:
+                        System.out.println("Marketing");
+                        break;
 
-	                    case 2:
-	                        System.out.println("Carregador");
-	                        break;
+                    case 2:
+                        System.out.println("Economia");
+                        break;
 
-	                    case 3:
-	                        System.out.println("Fone de ouvido");
-	                        break;
+                    case 3:
+                        System.out.println("Contabilidade");
+                        break;
 
-	                    default:
-	                        System.out.println("Produto inválido.");
-	                }
+                    default:
+                        System.out.println("Disciplina inválida.");
+                }
 
-	                break;
+                break;
 
-	            default:
-	                System.out.println("Categoria inválida.");
-	        }
+            case 3:
 
-	        sc.close();
+                switch (disciplina) {
+                    case 1:
+                        System.out.println("Cálculo");
+                        break;
+
+                    case 2:
+                        System.out.println("Física");
+                        break;
+
+                    case 3:
+                        System.out.println("Desenho Técnico");
+                        break;
+
+                    default:
+                        System.out.println("Disciplina inválida.");
+                }
+
+                break;
+
+            default:
+                System.out.println("Curso inválido.");
+        }
+
+        sc.close();
 	}
 
 }

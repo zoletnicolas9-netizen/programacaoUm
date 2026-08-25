@@ -32,6 +32,7 @@ public class Ex2 {
                 System.out.println("Opção inválida.");
         }
 
+       
         sc.close();
 	}
 
