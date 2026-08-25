@@ -21,5 +21,7 @@ public class Ex9 {
         System.out.println(!documento);
         System.out.println(ingresso && (documento || acompanhante));
         System.out.println(!(ingresso && documento));
+   
+        sc.close();
     }
 }

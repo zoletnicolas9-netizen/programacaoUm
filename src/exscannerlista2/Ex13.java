@@ -21,5 +21,7 @@ public class Ex13 {
         System.out.println(!cnh);
         System.out.println(cnh && dinheiro);
         System.out.println(!(carro || dinheiro));
+    
+        sc.close();
     }
 }

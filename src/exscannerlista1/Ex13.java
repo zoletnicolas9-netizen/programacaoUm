@@ -14,5 +14,7 @@ public class Ex13 {
 
         System.out.println("Temperatura: " + temperatura + "C");
         System.out.println("Situacao: " + situacao);
+    
+        sc.close();
     }
 }

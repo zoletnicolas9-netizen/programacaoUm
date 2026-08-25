@@ -18,5 +18,7 @@ public class Ex8 {
 
         System.out.println("Divisao inteira: " + divisaoInteira);
         System.out.println("Divisao real: " + divisaoReal);
+    
+        sc.close();
     }
 }

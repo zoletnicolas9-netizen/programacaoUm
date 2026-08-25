@@ -21,5 +21,7 @@ public class Ex15 {
         System.out.println("Preco: R$ " + preco);
         System.out.println("Estoque: " + estoque + " unidades");
         System.out.println("=========================");
+    
+        sc.close();
     }
 }

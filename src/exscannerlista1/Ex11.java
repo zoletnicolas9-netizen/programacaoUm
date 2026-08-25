@@ -20,5 +20,7 @@ public class Ex11 {
 
         System.out.println("Aluno: " + nome);
         System.out.println("Resultado: " + resultado);
+    
+        sc.close();
     }
 }

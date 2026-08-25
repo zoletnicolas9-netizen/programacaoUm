@@ -23,5 +23,7 @@ public class Ex21 {
         System.out.println("Salario base: R$ " + salario);
         System.out.println("Horas extras: R$ " + valorExtras);
         System.out.println("Salario final: R$ " + salarioFinal);
+   
+        sc.close();
     }
 }

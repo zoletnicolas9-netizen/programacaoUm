@@ -22,5 +22,7 @@ public class Ex4 {
         System.out.println("Nota 1: " + nota1);
         System.out.println("Nota 2: " + nota2);
         System.out.println("Media: " + media);
+    
+        sc.close();
     }
 }

@@ -14,5 +14,7 @@ public class Ex19 {
 
         System.out.println("Saldo: R$ " + saldo);
         System.out.println("Situacao: " + situacao);
+   
+        sc.close();
     }
 }

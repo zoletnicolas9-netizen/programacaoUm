@@ -16,5 +16,7 @@ public class Ex8 {
         System.out.println("Valor inicial: " + temperatura);
         System.out.println("Valor inteiro: " + inteiro);
         System.out.println("Valor double: " + decimal);
+   
+        sc.close();
     }
 }

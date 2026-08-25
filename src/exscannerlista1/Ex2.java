@@ -23,5 +23,7 @@ public class Ex2 {
         System.out.println("Codigo: " + codigo);
         System.out.println("Preco: " + preco);
         System.out.println("Quantidade: " + quantidade);
+   
+        sc.close();
     }
 }

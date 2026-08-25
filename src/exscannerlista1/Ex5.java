@@ -21,5 +21,8 @@ public class Ex5 {
 
         System.out.println("Valor total: R$ " + total);
         System.out.println("Valor medio: R$ " + media);
+    
+    
+        sc.close();
     }
 }

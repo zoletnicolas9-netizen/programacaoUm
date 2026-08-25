@@ -24,5 +24,7 @@ public class Ex14 {
         System.out.println("Salario: R$ " + salario);
         System.out.println("Bonus: R$ " + bonus);
         System.out.println("Salario Final: R$ " + salarioFinal);
+    
+        sc.close();
     }
 }

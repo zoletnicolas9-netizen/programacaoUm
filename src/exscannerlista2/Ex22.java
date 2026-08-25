@@ -28,5 +28,7 @@ public class Ex22 {
         System.out.println("Valor total: R$ " + total);
         System.out.println("Parcelas: " + parcelas);
         System.out.println("Valor de cada parcela: R$ " + parcela);
+    
+        sc.close();
     }
 }

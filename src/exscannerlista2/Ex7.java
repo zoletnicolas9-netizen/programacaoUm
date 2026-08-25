@@ -16,5 +16,7 @@ public class Ex7 {
         System.out.println("Nota: " + nota);
         System.out.println("Nota inteira: " + notaInteira);
         System.out.println("Nota double: " + notaDouble);
+ 
+        sc.close();
     }
 }

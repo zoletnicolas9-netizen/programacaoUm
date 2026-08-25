@@ -13,5 +13,7 @@ public class Ex12 {
         String resultado = idade >= 18 ? "Maior de idade" : "Menor de idade";
 
         System.out.println(resultado);
+    
+        sc.close();
     }
 }

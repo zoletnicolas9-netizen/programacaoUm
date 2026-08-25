@@ -32,5 +32,7 @@ public class Ex2 {
         System.out.println("Cor: " + cor);
         System.out.println("Valor: R$ " + valor);
         System.out.println("Automatico: " + automatico);
+   
+        sc.close();
     }
 }

@@ -13,5 +13,7 @@ public class Ex16 {
         String resultado = estoque < 5 ? "Estoque baixo" : "Estoque suficiente";
 
         System.out.println(resultado);
+    
+        sc.close();
     }
 }

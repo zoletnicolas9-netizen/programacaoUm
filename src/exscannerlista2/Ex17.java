@@ -21,5 +21,7 @@ public class Ex17 {
         System.out.println("Cargo: " + cargo);
         System.out.println("Salario: R$ " + salario);
         System.out.println("*************************");
+   
+        sc.close();
     }
 }

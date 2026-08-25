@@ -14,5 +14,7 @@ public class Ex12 {
         System.out.println(saldo < 500);
         System.out.println(saldo == 850);
         System.out.println(saldo != 850);
+   
+        sc.close();
     }
 }

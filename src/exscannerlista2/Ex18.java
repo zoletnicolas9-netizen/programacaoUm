@@ -13,5 +13,7 @@ public class Ex18 {
         String resultado = media >= 7 ? "Aprovado" : "Reprovado";
 
         System.out.println(resultado);
+   
+        sc.close();
     }
 }

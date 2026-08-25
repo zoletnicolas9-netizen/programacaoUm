@@ -16,5 +16,7 @@ public class Ex6 {
         double reais = dolares * cotacao;
 
         System.out.printf("O monitor custa %.2f reais", reais);
+    
+        sc.close();
     }
 }

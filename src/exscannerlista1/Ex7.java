@@ -16,5 +16,7 @@ public class Ex7 {
         System.out.println("Valor inicial: " + salario);
         System.out.println("Valor inteiro: " + salarioInteiro);
         System.out.println("Valor double: " + salarioDouble);
+   
+        sc.close();
     }
 }

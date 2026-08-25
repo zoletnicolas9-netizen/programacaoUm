@@ -21,5 +21,7 @@ public class Ex14 {
         System.out.println(!chovendo);
         System.out.println(chovendo && (guardaChuva || carro));
         System.out.println(!(chovendo && guardaChuva));
+    
+        sc.close();
     }
 }
