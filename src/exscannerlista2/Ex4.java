@@ -20,11 +20,7 @@ public class Ex4 {
 
         System.out.println("Soma: " + soma);
         System.out.println("Media: " + media);
-<<<<<<< HEAD
    
-=======
-    
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
         sc.close();
     }
 }

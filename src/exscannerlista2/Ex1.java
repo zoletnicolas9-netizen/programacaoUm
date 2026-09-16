@@ -32,11 +32,7 @@ public class Ex1 {
         System.out.println("Altura: " + altura);
         System.out.println("Media final: " + media);
         System.out.println("Matriculado: " + matriculado);
-<<<<<<< HEAD
-    
-=======
-   
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
+
         sc.close();
     }
 }

@@ -14,11 +14,8 @@ public class Ex20 {
 
         System.out.println("Saldo: R$ " + saldo);
         System.out.println("Situacao: " + situacao);
-<<<<<<< HEAD
     
-=======
    
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
         sc.close();
     }
 }

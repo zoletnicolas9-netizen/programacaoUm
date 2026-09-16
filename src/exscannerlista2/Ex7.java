@@ -15,11 +15,7 @@ public class Ex7 {
         System.out.println("Nota: " + nota);
         System.out.println("Nota inteira: " + notaInteira);
         System.out.println("Nota double: " + notaDouble);
-<<<<<<< HEAD
  
-=======
-    
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
         sc.close();
     }
 }

@@ -14,11 +14,7 @@ public class Ex11 {
         System.out.println(temperatura <= 30);
         System.out.println(temperatura == 20);
         System.out.println(temperatura != 30);
-<<<<<<< HEAD
-    
-=======
-   
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
+
         sc.close();
     }
 }

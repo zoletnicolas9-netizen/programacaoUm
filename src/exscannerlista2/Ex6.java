@@ -12,11 +12,8 @@ public class Ex6 {
         double metros = quilometros * 1000;
 
         System.out.println("Metros: " + metros);
-<<<<<<< HEAD
    
-=======
     
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
         sc.close();
     }
 }

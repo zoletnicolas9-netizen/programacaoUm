@@ -18,11 +18,7 @@ public class Ex10 {
 
         System.out.println("Divisao inteira: " + divisaoInteira);
         System.out.println("Divisao real: " + divisaoReal);
-<<<<<<< HEAD
-   
-=======
- 
->>>>>>> 599999ca8aca474e1120773ef4138e401655e991
+
         sc.close();
     }
 }
